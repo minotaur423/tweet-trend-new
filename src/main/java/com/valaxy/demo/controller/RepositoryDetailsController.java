@@ -32,7 +32,7 @@ public class RepositoryDetailsController {
 
 	@RequestMapping("/")
 	public String getRepos() throws IOException {
-		GitHub github = new GitHubBuilder().withPassword("valaxytech@gmail.com", "XXXXXXXX").build();
+		GitHub github = new GitHubBuilder().withPassword("minotaur423@me.com", "XXXXXXXX").build();
 		GHRepositorySearchBuilder builder = github.searchRepositories();
 		return "Greetings from Valaxy Technologies";
 	}
